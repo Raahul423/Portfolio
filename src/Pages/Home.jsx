@@ -6,7 +6,6 @@ import { Data } from '../Images'
 import Lightcomponent from '../Components/Lightcomponent'
 import { useState } from 'react'
 import Basic from '../Components/Basic'
-import Navbar from '../Components/Navbar'
 
 const Home = () => {
   const navigate = useNavigate()

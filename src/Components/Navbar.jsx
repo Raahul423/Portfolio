@@ -13,7 +13,7 @@ const Navbar = () => {
 
     return (
         <div className=' flex justify-between z-50 items-center px-6 fixed w-full'>
-            <div className={'text-[3em] font-extrabold Font-Goldman'}>
+            <div className={'text-[5em] text-orange-500 font-extrabold Font-Goldman'}>
                 <h1>Rahul</h1>
             </div>
 
