@@ -6,6 +6,7 @@ import { Data } from '../Images'
 import Lightcomponent from '../Components/Lightcomponent'
 import { useState } from 'react'
 import Basic from '../Components/Basic'
+import Partical from '../Components/Partical'
 
 const Home = () => {
   const navigate = useNavigate()
@@ -17,6 +18,7 @@ const Home = () => {
 
   return (
     <div className='w-full h-screen z-0'>
+      <Partical/>
       <Basic click={click} Data={Data}/>
       <Lightcomponent click={click}/>
       <Frontpage Data={Data} handleclick={handleclick} click={click}/>

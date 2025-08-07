@@ -5,8 +5,7 @@ import React, { useEffect, useState } from 'react'
 const roles = [
   'Frontend Developer',
   'React Developer',
-  'UI/UX Design',
-  'Figma Design',
+  'UI/UX Developer'
 ];
 
 const Lightcomponent = ({ click }) => {
