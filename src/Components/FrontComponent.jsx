@@ -5,7 +5,7 @@ import { Link, Links } from 'react-router-dom'
 
 const FrontComponent = ({ navigate, Data, click }) => {
     return (
-        <div className='relative h-screen p-8 max-sm:p-4'>
+        <div className='relative h-screen px-8 max-sm:p-4'>
             <motion.p
                 initial={{ scale: 0, opacity: 0 }}
                 animate={{ scale: [0, 1.1, 0, 1], opacity: 1 }}
@@ -40,26 +40,26 @@ const FrontComponent = ({ navigate, Data, click }) => {
                 </Link>
 
                 <Link to='https://www.instagram.com/raahul_.423/'>
-                <motion.img
-                    animate={{ y: 0, scale: [0, 1.2, 1] }}
-                    transition={{ delay: 0.6 }}
-                    className='h-7 w-7  cursor-pointer hover:scale-120 duration-200' style={{ filter: click ? 'invert(0)' : 'invert(1)' }} src={Data.Instagram} alt="Something Error" />
+                    <motion.img
+                        animate={{ y: 0, scale: [0, 1.2, 1] }}
+                        transition={{ delay: 0.6 }}
+                        className='h-7 w-7  cursor-pointer hover:scale-120 duration-200' style={{ filter: click ? 'invert(0)' : 'invert(1)' }} src={Data.Instagram} alt="Something Error" />
                 </Link>
-                
+
                 <Link to='https://www.linkedin.com/in/raahul423/'>
-                 <motion.img
-                    animate={{ y: 0, scale: [0, 1.2, 1] }}
-                    transition={{ delay: 0.9 }}
-                    className='h-7 w-7 cursor-pointer hover:scale-120 duration-200' style={{ filter: click ? 'invert(0)' : 'invert(1)' }} src={Data.Linkedin} alt="Something Error" />
+                    <motion.img
+                        animate={{ y: 0, scale: [0, 1.2, 1] }}
+                        transition={{ delay: 0.9 }}
+                        className='h-7 w-7 cursor-pointer hover:scale-120 duration-200' style={{ filter: click ? 'invert(0)' : 'invert(1)' }} src={Data.Linkedin} alt="Something Error" />
                 </Link>
-               
+
                 <Link>
-                <motion.img
-                    animate={{ y: 0, scale: [0, 1.2, 1] }}
-                    transition={{ delay: 1.2 }}
-                    className='h-7 w-7 cursor-not-allowed ' style={{ filter: click ? 'invert(0)' : 'invert(1)' }} src={Data.Facebook} alt="Something Error" />
+                    <motion.img
+                        animate={{ y: 0, scale: [0, 1.2, 1] }}
+                        transition={{ delay: 1.2 }}
+                        className='h-7 w-7 cursor-not-allowed ' style={{ filter: click ? 'invert(0)' : 'invert(1)' }} src={Data.Facebook} alt="Something Error" />
                 </Link>
-                
+
 
                 <span
                     className={`h-30 w-0.5  ${click ? 'bg-black' : 'bg-white'} `}></span>
