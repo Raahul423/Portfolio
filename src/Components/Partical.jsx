@@ -26,7 +26,7 @@ const Partical = () => {
                         value: "",
                     },
                 },
-                fpsLimit: 120,
+                fpsLimit: 60,
                 interactivity: {
                     events: {
                         onClick: {
@@ -75,7 +75,7 @@ const Partical = () => {
                             enable: true,
                             area: 800,
                         },
-                        value: 80,
+                        value: 35,
                     },
                     opacity: {
                         value: 0.5,

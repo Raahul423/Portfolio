@@ -6,7 +6,7 @@ const roles = [
   'Frontend Developer',
   'React Developer',
   'UI/UX Developer'
-];
+]
 
 const Lightcomponent = ({ click }) => {
 

@@ -15,7 +15,7 @@ const Frontpage = ({Data , handleclick , click}) => {
                         repeat: Infinity,
                         ease: "linear"
                     }}
-                    className={` cursor-pointer  ${click ? 'h-30 w-30':'h-50 w-50'}`} style={{filter:'invert(1)'}} src={Data.YinYang} alt="Something went Wrong" />
+                    className={` cursor-pointer  ${click ? 'max-sm:h-15 max-sm:w-15 h-30 w-30':'h-50 w-50 max-sm:h-30 max-sm:w-30'}`} style={{filter:'invert(1)'}} src={Data.YinYang} alt="Something went Wrong" />
                 <p className={`${click ? 'hidden' : 'text-xl'}`}>Click Me</p>
             </div>
 

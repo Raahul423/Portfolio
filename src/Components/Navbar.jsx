@@ -12,13 +12,13 @@ const Navbar = () => {
 
 
     return (
-        <div className=' flex justify-between z-50 items-center px-6 fixed w-full'>
-            <div className={'text-[5em] text-orange-500 font-extrabold Font-Goldman'}>
+        <div className=' max-sm:p-4 flex justify-between z-50 items-center px-6 fixed w-full'>
+            <div className={'text-[5em] max-sm:text-3xl text-orange-500 font-extrabold Font-Goldman'}>
                 <h1>Rahul</h1>
             </div>
 
             <div onClick={()=>navigate('/')} className='bg-white cursor-pointer p-2 border border-amber-400 rounded-full hover:scale-85 duration-300'>
-                <img className='h-7 w-7 ' src={Data.Power} alt="Something Error" />
+                <img className='h-7 w-7 max-sm:h-3.5 max-sm:w-3.5' src={Data.Power} alt="Something Error" />
             </div>
 
             <motion.div 
@@ -30,7 +30,7 @@ const Navbar = () => {
                 repeat:Infinity,
                 ease:"easeInOut"
             }}
-            onClick={()=>setHover("Welcome Guys ! ....")} className='cursor-pointer text-xl font-bold'>
+            onClick={()=>setHover("Welcome Guys ! ....")} className='cursor-pointer max-sm:text-sm text-xl font-bold'>
                 {Hover}
             </motion.div>
 
