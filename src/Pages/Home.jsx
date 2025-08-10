@@ -17,7 +17,7 @@ const Home = () => {
       }
 
   return (
-    <div className='w-full h-screen z-0'>
+    <div className=' relative overflow-hidden w-full min-h-dvh z-0'>
       <Partical/>
       <Basic click={click} Data={Data}/>
       <Lightcomponent click={click}/>

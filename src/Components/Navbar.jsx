@@ -12,7 +12,7 @@ const Navbar = () => {
 
 
     return (
-        <div className=' max-sm:p-4 flex justify-between z-50 items-center px-6 fixed w-full'>
+        <div className=' max-sm:p-4 glass-effect flex justify-between z-50 items-center px-6 fixed w-full'>
             <div className={'text-[5em] max-sm:text-3xl text-orange-500 font-extrabold Font-Goldman'}>
                 <h1>Rahul</h1>
             </div>
@@ -30,7 +30,7 @@ const Navbar = () => {
                 repeat:Infinity,
                 ease:"easeInOut"
             }}
-            onClick={()=>setHover("Welcome Guys ! ....")} className='cursor-pointer max-sm:text-sm text-xl font-bold'>
+            onClick={()=>setHover("Welcome Guys ! ....")} className='cursor-pointer text-orange-500 max-sm:text-sm text-xl font-bold'>
                 {Hover}
             </motion.div>
 
