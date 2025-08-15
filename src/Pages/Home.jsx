@@ -20,7 +20,7 @@ const Home = () => {
     <div className=' relative overflow-hidden w-full min-h-dvh z-0'>
       <Partical/>
       <Basic click={click} Data={Data}/>
-      <Lightcomponent click={click}/>
+      <Lightcomponent click={click} Data={Data}/>
       <Frontpage Data={Data} handleclick={handleclick} click={click}/>
       <FrontComponent navigate={navigate} Data={Data} click={click}/>
     </div>
