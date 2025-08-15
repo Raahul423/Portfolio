@@ -40,18 +40,23 @@ const Lightcomponent = ({ click, Data }) => {
               }}
               className='flex flex-col gap-4 max-sm:gap-0'>
               <h1 className='text-[4em] max-sm:text-[2em] font-extrabold'>Hi,</h1>
+
+              <div className='flex gap-4 items-center'>
+                <span className='text-3xl protest-revolution-regular max-sm:text-lg text-orange-600'>I'm</span>
               <AnimatePresence mode="wait">
                 <motion.span
                   key={roles[index]}
-                  initial={{ opacity: 0, x: 10 }}
-                  animate={{ opacity: 1, x: [0, 5, 0] }}
-                  exit={{ opacity: 0, x: -10 }}
+                  initial={{ opacity: 0, y:0 }}
+                  animate={{ opacity: 1, y: [0, 5, 0] }}
+                  exit={{ opacity: 0, y:10 }}
                   transition={{ duration: 0.5 }}
                 >
-                  <h3 className='text-3xl max-sm:text-lg text-orange-600'>I'm {roles[index]}</h3>
+                  <h3 className='text-3xl protest-revolution-regular max-sm:text-lg text-orange-600'>{roles[index]}</h3>
 
                 </motion.span>
               </AnimatePresence>
+              </div>
+              
               <p className='text-xl max-sm:text-sm text-gray-700'>Passionate React frontend developer focused on clean, responsive mobile UI/UX design with a love for user-centric experiences.
               </p>
             </motion.div>
