@@ -38,8 +38,8 @@ const Lightcomponent = ({ click, Data }) => {
                 delay: 0.6,
                 duration: 0.5
               }}
-              className='flex flex-col gap-4 max-sm:gap-2'>
-              <h1 className='text-[4em] max-sm:text-[2.5em] font-extrabold'>Hi,</h1>
+              className='flex flex-col gap-4 max-sm:gap-0'>
+              <h1 className='text-[4em] max-sm:text-[2em] font-extrabold'>Hi,</h1>
               <AnimatePresence mode="wait">
                 <motion.span
                   key={roles[index]}
