@@ -41,7 +41,7 @@ const Lightcomponent = ({ click, Data }) => {
               className='flex flex-col gap-4 max-sm:gap-0'>
               <h1 className='text-[4em] max-sm:text-[2em] font-extrabold'>Hi,</h1>
 
-              <div className='flex gap-4 items-center'>
+              <div className='flex gap-4 max-sm:gap-2 items-center'>
                 <span className='text-3xl protest-revolution-regular max-sm:text-lg text-orange-600'>I'm</span>
               <AnimatePresence mode="wait">
                 <motion.span
