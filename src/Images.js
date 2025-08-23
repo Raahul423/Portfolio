@@ -17,24 +17,23 @@ import React from "./assets/Images/physics.png";
 import Tailwind from "./assets/Images/icons8-tailwindcss.svg";
 import redux from "./assets/Images/icons8-redux.svg";
 
-export const Data = 
-  {
-    Spaceman,
-    Rahul,
-    Anchorsolid,
-    Facebook,
-    githubpic,
-    Github,
-    Laptop,
-    Linksolid,
-    Palette,
-    Power,
-    Instagram,
-    YinYang,
-    Linkedin,
-    javascript,
-    redux,
-    React,
-    Nodejs,
-    Tailwind,
-  }
+export const Data = {
+  Spaceman,
+  Rahul,
+  Anchorsolid,
+  Facebook,
+  githubpic,
+  Github,
+  Laptop,
+  Linksolid,
+  Palette,
+  Power,
+  Instagram,
+  YinYang,
+  Linkedin,
+  javascript,
+  redux,
+  React,
+  Nodejs,
+  Tailwind,
+};

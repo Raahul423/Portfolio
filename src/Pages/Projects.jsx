@@ -1,12 +1,13 @@
 import React from 'react'
 import Projectscomponents from '../Components/Projectscomponents'
-import Partical from '../Components/Partical'
+import { Project } from '../Components/Project'
+
+
 
 const Projects = () => {
   return (
-    <div className='p-12 w-full min-h-dvh'>
-      <Partical/>
-      <Projectscomponents/>
+    <div className='bg-red-500 min-h-dvh px-16 pt-35 '>
+      <Projectscomponents Data={Project}/>
     </div>
   )
 }

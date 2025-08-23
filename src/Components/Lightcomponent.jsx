@@ -115,7 +115,7 @@ const Lightcomponent = ({ click, Data }) => {
                   ease: 'easeInOut',
                 }}
 
-                className='h-15 w-15 max-sm:h-10 max-sm:w-10 m-auto' src={Data.Tailwind} alt="JavaScript" />
+                className='h-17 w-17 max-sm:h-10 max-sm:w-10 m-auto' src={Data.Tailwind} alt="JavaScript" />
 
                 <motion.img animate={{
                 y: [5, -5, 5]
@@ -126,7 +126,7 @@ const Lightcomponent = ({ click, Data }) => {
                   ease: 'easeInOut',
                 }}
 
-                className='h-15 w-15 max-sm:h-10 max-sm:w-10 m-auto' src={Data.Nodejs} alt="JavaScript" />
+                className='h-20 w-20 max-sm:h-10 max-sm:w-10 m-auto' src={Data.Nodejs} alt="JavaScript" />
 
             </div>
 
