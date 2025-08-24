@@ -7,6 +7,7 @@ import Lightcomponent from '../Components/Lightcomponent'
 import { useState } from 'react'
 import Basic from '../Components/Basic'
 import Partical from '../Components/Partical'
+import { HomeOptions } from '../Components/Datafiles/HomeOptions'
 
 const Home = () => {
   const navigate = useNavigate()
@@ -18,7 +19,7 @@ const Home = () => {
 
   return (
     <div className=' relative overflow-hidden w-full min-h-dvh z-0'>
-      <Partical/>
+      <Partical options={HomeOptions}/>
       <Basic click={click} Data={Data}/>
       <Lightcomponent click={click} Data={Data}/>
       <Frontpage Data={Data} handleclick={handleclick} click={click}/>
