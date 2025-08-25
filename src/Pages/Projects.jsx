@@ -5,9 +5,11 @@ import { Project } from '../Components/Datafiles/Project'
 
 
 
+
+
 const Projects = () => {
   return (
-    <div className=' min-h-dvh px-16 pt-35 '>
+    <div className=' min-h-dvh md:px-16 pt-35 max-sm:pt-20'>
       <Projectscomponents Data={Project}/>
     </div>
   )
