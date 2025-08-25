@@ -6,7 +6,7 @@ export const Project = [
     Desc: ["Grab Your Popcorn,Your Seat is waiting. 🍿🎬 "],
     github_repo: "https://github.com/Raahul423/ShowBiz",
     Live: "https://show-biz-flax.vercel.app/",
-    Projectimage: 'src/assets/Project-images/ShowBiz.png'
+    Projectimage: './src/assets/Project-images/ShowBiz.png'
   },
   {
     Id: 2,
@@ -14,7 +14,7 @@ export const Project = [
     Desc: ["Your mood ✌️. Your Music 🎧 . Listen Me 🎼"],
     github_repo: "https://github.com/Raahul423/ListenMe",
     Live: "https://listen-me.vercel.app/",
-    Projectimage: 'src/assets/Project-images/Listenme.png'
+    Projectimage: './src/assets/Project-images/Listenme.png'
   },
   {
     Id: 3,
@@ -22,7 +22,7 @@ export const Project = [
     Desc: ["Scroll less . Watch more . Experience clean UI 🔥📽️."],
     github_repo: "https://github.com/Raahul423/Movies-CLone",
     Live: "https://movies-c-lone.vercel.app/",
-    Projectimage: 'src/assets/Project-images/Netflix-clone.png'
+    Projectimage: './src/assets/Project-images/Netflix-clone.png'
   },
   {
     Id: 4,
@@ -30,6 +30,6 @@ export const Project = [
     Desc: ["Where videos shine,not the buttons 🎬💡"],
     github_repo: "https://github.com/Raahul423/Youtube-Clone",
     Live: "https://youtube-clonee-six.vercel.app/",
-    Projectimage: 'src/assets/Project-images/Youtube-clone.png'
+    Projectimage: './src/assets/Project-images/Youtube-clone.png'
   },
 ];
