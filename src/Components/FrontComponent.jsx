@@ -6,29 +6,29 @@ import { Link, Links } from 'react-router-dom'
 const FrontComponent = ({ navigate, Data, click }) => {
     return (
         <div className='relative min-h-dvh  overflow-hidden px-8 max-sm:p-4'>
-            <motion.p
+            <motion.button
                 initial={{ scale: 0, opacity: 0 }}
                 animate={{ scale: [0, 1.1, 0, 1], opacity: 1 }}
                 transition={{ duration: 1, delay: 0.8, ease: 'easeInOut' }}
-                onClick={() => (navigate('/Project'))} className={`absolute cursor-pointer tracking-wide rotate-[270deg] text-xl max-sm:text-lg top-1/2  -translate-y-1/2 left-0 max-sm:-left-3 hover:scale-115 duration-300  ${click ? 'text-black z-50 text-shadow-lg shadow-black' : ''}`}>Projects .</motion.p>
+                onClick={() => (navigate('/Project'))} className={`absolute cursor-pointer tracking-wide rotate-[270deg] text-xl max-sm:text-lg top-1/2  -translate-y-1/2 left-0 max-sm:-left-3 hover:scale-115 duration-300  ${click ? 'text-black z-50 text-shadow-lg shadow-black' : ''}`}>Projects .</motion.button>
 
-            <motion.p
+            <motion.button
                 initial={{ scale: 0, opacity: 0 }}
                 animate={{ scale: [0, 1.1, 0, 1], opacity: 1 }}
                 transition={{ duration: 1, delay: 0.8, ease: 'easeOut' }}
-                onClick={() => window.location = 'mailto:rpal24480@gmail.com'} className='absolute cursor-pointer top-1/2 max-sm:text-lg max-sm:-right-5 -translate-y-1/2 right-0 hover:scale-115  duration-300 tracking-wide rotate-[90deg] text-xl '>Conatct Us .</motion.p>
+                onClick={() => window.location = 'mailto:rpal24480@gmail.com'} className='absolute cursor-pointer top-1/2 max-sm:text-lg max-sm:-right-5 -translate-y-1/2 right-0 hover:scale-115  duration-300 tracking-wide rotate-[90deg] text-xl '>Conatct Us .</motion.button>
 
-            <motion.p
+            <motion.button
                 initial={{ scale: 0, opacity: 0 }}
                 animate={{ scale: [0, 1.1, 0, 1], opacity: 1 }}
                 transition={{ duration: 1, delay: 0.8, ease: 'easeInOut' }}
-                onClick={() => navigate('/About')} className={`absolute cursor-pointer tracking-wide bottom-8 max-sm:text-lg -translate-x-1/4 left-1/4 text-xl hover:scale-110  duration-300  ${click ? 'text-black z-50 text-shadow-lg shadow-black max-sm:text-white' : ''}`}>About .</motion.p>
+                onClick={() => navigate('/About')} className={`absolute cursor-pointer tracking-wide bottom-8 max-sm:text-lg -translate-x-1/4 left-1/4 text-xl hover:scale-110  duration-300  ${click ? 'text-black z-50 text-shadow-lg shadow-black max-sm:text-white' : ''}`}>About .</motion.button>
 
-            <motion.p
+            <motion.button
                 initial={{ scale: 0, opacity: 0 }}
                 animate={{ scale: [0, 1.1, 0, 1], opacity: 1 }}
                 transition={{ duration: 1, delay: 0.8, ease: 'easeInOut' }}
-                onClick={() => navigate('/Skills')} className='absolute bottom-8 cursor-pointer tracking-wide max-sm:text-lg -translate-x-3/4 left-3/4 text-xl hover:scale-110 duration-300 '>My Skills .</motion.p>
+                onClick={() => navigate('/Skills')} className='absolute bottom-8 cursor-pointer tracking-wide max-sm:text-lg -translate-x-3/4 left-3/4 text-xl hover:scale-110 duration-300 '>My Skills .</motion.button>
 
             <motion.div
                 className='absolute z-50 flex flex-col gap-4 items-center bottom-0'>
