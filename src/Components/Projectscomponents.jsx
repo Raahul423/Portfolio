@@ -16,21 +16,21 @@ const Projectscomponents = ({ Data }) => {
         <motion.div
           initial={{ opacity: 0, x: -60 }}
           animate={{ opacity: 1, x: 0, }}
-          transition={{ duration: 2, ease: 'easeInOut' }}
+          transition={{ duration: 1.5, ease: 'easeInOut' }}
           className={`basis-70 max-sm:basis-40 p-4 h-full justify-around  flex flex-col ${isclick === item.Id ? 'hidden' : ''}`}>
 
           <h1 className='md:text-2xl text-orange-500 drop-shadow-[2px_4px_2px_rgba(200,200,200,0.5)] protest-revolution-regular'>{item.Name}</h1>
 
           <motion.p initial={{ opacity: 0 }}
             animate={{ opacity: 1, scaleX: [0, 1] }}
-            transition={{ delay: 2, duration: 1, ease: 'easeInOut' }}
+            transition={{ delay: 1, duration: 1, ease: 'easeInOut' }}
             className='md:text-xl max-sm:text-sm'>{item.Desc}</motion.p>
 
 
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1, scaleX: [0, 1] }}
-            transition={{ delay: 2, duration: 1, ease: 'easeInOut' }}
+            transition={{ delay: 1, duration: 1, ease: 'easeInOut' }}
             className='flex gap-2 '>
             <FontAwesomeIcon icon={faHtml5} className='md:text-3xl max-sm:text-xl hover:scale-110 duration-150 cursor-pointer' />
             <FontAwesomeIcon icon={faCss3} className='md:text-3xl max-sm:text-xl hover:scale-110 duration-150 cursor-pointer' />
@@ -45,8 +45,8 @@ const Projectscomponents = ({ Data }) => {
 
         <motion.div
           initial={{ opacity: 0 }}
-          animate={isclick === item.Id ? {opacity:1 , scale:[0,1]}:{ opacity: 1,scaleX:[0,1] }}
-          transition={isclick === item.Id ?{delay:0, duration:1,ease:'easeInOut',type:'spring'}:{duration: 1, ease: 'easeInOut' }}
+          animate={isclick === item.Id ? {opacity:1 , scale:[0,1]}:{ opacity: 1,scaleX:[0,1.3,1] }}
+          transition={isclick === item.Id ?{duration:1,ease:'easeInOut',type:'spring'}:{duration: 1, ease: 'easeInOut' }}
           className={`relative h-fit ${isclick === item.Id ? 'p-0':'py-4'}`}
           onClick={() => setIsclick(item.Id)}>
 
